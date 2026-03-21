@@ -473,11 +473,28 @@ require('lazy').setup({
 
 -- MY COLORSCHEME, I SHOULD PROBABLY BREAK TS UP TO DIFFERENT FILES SOON!
 
-  -- {
-  --   "olimorris/onedarkpro.nvim",
-  --   lazy=false,
-  --   priority = 1000,
-  -- },
+   {
+     "olimorris/onedarkpro.nvim",
+     lazy=false,
+     priority = 1000,
+   },
+--[[
+
+{
+  "rose-pine/neovim",
+  name = "rose-pine",
+  lazy = false,
+  priority = 1000,
+  config = function()
+    require("rose-pine").setup({
+      styles = {
+        italic = false,
+      },
+    })
+  end
+},
+
+  
 { "ellisonleao/gruvbox.nvim", lazy=false, priority = 1000 ,
 	config=function()
 		require("gruvbox").setup({
@@ -492,6 +509,8 @@ require('lazy').setup({
 			})
 	end,
 },
+
+]]
 -- END COLORSCHEME
 {
     'tribela/transparent.nvim',
@@ -568,7 +587,7 @@ require('lazy').setup({
 
 
 --SET COLORSCHEME
-vim.cmd("colorscheme gruvbox")
+vim.cmd("colorscheme onedark_dark")
 
 
 
