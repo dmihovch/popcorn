@@ -519,11 +519,16 @@ require('lazy').setup({
 },
 
 
-  { -- Highlight, edit, and navigate code
+{
     'nvim-treesitter/nvim-treesitter',
     build = ':TSUpdate',
-    main = 'nvim-treesitter', -- Sets main module to use for opts
-    -- [[ Configure Treesitter ]] See `:help nvim-treesitter`
+    config = function(_, opts)
+        local status_ok, configs = pcall(require, "nvim-treesitter.configs")
+        if not status_ok then
+            return
+        end
+        configs.setup(opts)
+    end,
     opts = {
       ensure_installed = {
         'bash',
@@ -538,18 +543,15 @@ require('lazy').setup({
         'vim',
         'vimdoc',
       },
-      -- Autoinstall languages that are not installed
       auto_install = true,
       highlight = {
         enable = true,
-        -- Some languages depend on vim's regex highlighting system (such as Ruby) for indent rules.
-        --  If you are experiencing weird indenting issues, add the language to
-        --  the list of additional_vim_regex_highlighting and disabled languages for indent.
         additional_vim_regex_highlighting = { 'ruby' },
       },
       indent = { enable = true, disable = { 'ruby' } },
     },
 },
+
 
 { -- Simple, standalone autopairs
     'echasnovski/mini.pairs',
