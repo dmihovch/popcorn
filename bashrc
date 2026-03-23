@@ -130,6 +130,6 @@ export PATH="$HOME/.nvm/versions/node/$(node -v)/bin:$PATH"
 
 
 export PATH="/opt/nvim:$PATH"
-
+export PATH="$HOME/.local/bin:$PATH"
 
 
