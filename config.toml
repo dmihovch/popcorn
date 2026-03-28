@@ -1,0 +1,24 @@
+theme = "onedark"
+
+[editor]
+line-number = "relative"
+cursorline = true
+scrolloff = 10
+idle-timeout = 250
+auto-pairs = true
+
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-type"]
+
+[keys.normal]
+up = "no_op"
+down = "no_op"
+left = "no_op"
+right = "no_op"
+"C-h" = "jump_view_left"
+"C-j" = "jump_view_down"
+"C-k" = "jump_view_up"
+"C-l" = "jump_view_right"

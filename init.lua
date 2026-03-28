@@ -328,6 +328,7 @@ require('lazy').setup({
 				ts_ls = {},
 				html = {},
 				jdtls = {},
+				svelte = {},
 				lua_ls = {
 					settings = {
 						Lua = {
@@ -550,6 +551,10 @@ require('lazy').setup({
 			'query',
 			'vim',
 			'vimdoc',
+			'svelte',
+			'typescript',
+			'javascript',
+			'css'
 		},
 		auto_install = true,
 		highlight = {
