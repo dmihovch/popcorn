@@ -1,0 +1,152 @@
+[
+    (
+        output: (
+            name: "HDMI-A-3",
+            edid: Some((
+                manufacturer: ('M', 'S', 'I'),
+                product: 5218,
+                serial: Some(1),
+                manufacture_week: 37,
+                manufacture_year: 2018,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("1391390"),
+    ),
+    (
+        output: (
+            name: "HDMI-A-3",
+            edid: Some((
+                manufacturer: ('M', 'S', 'I'),
+                product: 5218,
+                serial: Some(1),
+                manufacture_week: 37,
+                manufacture_year: 2018,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("1267202"),
+    ),
+    (
+        output: (
+            name: "HDMI-A-3",
+            edid: Some((
+                manufacturer: ('M', 'S', 'I'),
+                product: 5218,
+                serial: Some(1),
+                manufacture_week: 37,
+                manufacture_year: 2018,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("6bf541"),
+    ),
+    (
+        output: (
+            name: "HDMI-A-3",
+            edid: Some((
+                manufacturer: ('M', 'S', 'I'),
+                product: 5218,
+                serial: Some(1),
+                manufacture_week: 37,
+                manufacture_year: 2018,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("d9b57f"),
+    ),
+    (
+        output: (
+            name: "HDMI-A-3",
+            edid: Some((
+                manufacturer: ('M', 'S', 'I'),
+                product: 5218,
+                serial: Some(1),
+                manufacture_week: 37,
+                manufacture_year: 2018,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("160cfe8"),
+    ),
+    (
+        output: (
+            name: "DP-1",
+            edid: Some((
+                manufacturer: ('G', 'S', 'M'),
+                product: 23480,
+                serial: Some(334991),
+                manufacture_week: 8,
+                manufacture_year: 2021,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("c12c3"),
+    ),
+    (
+        output: (
+            name: "DP-1",
+            edid: Some((
+                manufacturer: ('G', 'S', 'M'),
+                product: 23480,
+                serial: Some(334991),
+                manufacture_week: 8,
+                manufacture_year: 2021,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("1d8d617"),
+    ),
+    (
+        output: (
+            name: "DP-1",
+            edid: Some((
+                manufacturer: ('G', 'S', 'M'),
+                product: 23480,
+                serial: Some(334991),
+                manufacture_week: 8,
+                manufacture_year: 2021,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("1a337a9"),
+    ),
+    (
+        output: (
+            name: "DP-1",
+            edid: Some((
+                manufacturer: ('G', 'S', 'M'),
+                product: 23480,
+                serial: Some(334991),
+                manufacture_week: 8,
+                manufacture_year: 2021,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("50e77e"),
+    ),
+    (
+        output: (
+            name: "DP-1",
+            edid: Some((
+                manufacturer: ('G', 'S', 'M'),
+                product: 23480,
+                serial: Some(334991),
+                manufacture_week: 8,
+                manufacture_year: 2021,
+                model_year: None,
+            )),
+        ),
+        tiling_enabled: true,
+        id: Some("1143462"),
+    ),
+]
