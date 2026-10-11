@@ -24,7 +24,7 @@ background = "0x151515"
 foreground = "0xC0CAF5"
 
 [font]
-size = 18.0
+size = 20.0
 
 [font.normal]
 family = "Iosevka Term"
@@ -42,3 +42,6 @@ y = 5
 key = "Return"
 mods = "Shift"
 chars = "\u001B\r"
+
+[env]
+TERM = "xterm-256color"
